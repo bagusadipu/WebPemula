@@ -1,0 +1,68 @@
+*{
+	margin: 0 auto; /*1=semua margin bernilai sgtu, 4=atas,kanan,bawah,kiri 2=atsbwh krkn*/
+}
+
+#head{
+    padding: 10px;
+    background-color:brown;
+	width: 100%;   /*panjang head */
+	top: 0;
+}
+
+#menu ul li{
+	display: inline;
+	padding:5px 10px;
+    opacity: 0.8;
+}
+
+#menu ul li img{
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+}
+
+#body{
+	width: 100%;
+	height: 500px;
+	background-color: lightslategrey;
+}
+
+#home img{
+	width: 300px;
+	height: 300px;
+	display: block; 
+	/* align centernya display block */
+}
+
+#body h1{
+	text-align: center;
+	color: lightyellow;
+}
+
+
+
+#menu ul li a{
+	text-decoration: none;
+	color:#FFFFFF;
+    opacity: 1;
+}
+
+#menu ul li:hover a{
+	color:#FFFFFF;
+    font-weight:bold;
+}
+
+#menu ul li:hover:after{
+	border-bottom:solid 3px #0084b4;
+}
+
+#visimisi{
+	background-color: khaki;
+	width: 100%;
+	height: 500px;
+}
+
+#visi ul li{
+	display: inline;
+}
+
