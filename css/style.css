@@ -7,6 +7,7 @@
     background-color:brown;
 	width: 100%;   /*panjang head */
 	top: 0;
+	position: fixed;
 }
 
 #menu ul li{
@@ -59,10 +60,43 @@
 #visimisi{
 	background-color: khaki;
 	width: 100%;
-	height: 500px;
+	height: 300px;
 }
 
-#visi ul li{
+#bgvismis{
+	width: 50%;
+}
+
+#visi{
+	width: 200px;
+	float: left;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#misi{
+	width: 200px;
+	float: right;
+	text-align: left;
+	padding-top: 40px;
+}
+
+#hobi{
+	height: 400px;
+}
+
+#hobi .mySlide{
+	height: 300px;	
+	padding-top: 40px;
+}
+
+#kontak{
+	background: lightblue;
+	height: 300px;
+}
+
+#kontak ul li{
 	display: inline;
 }
+
 

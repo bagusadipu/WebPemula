@@ -2,6 +2,7 @@
     <head>
         <title>Bagus Adi Putra</title>
         <link rel="stylesheet" href="css/style.css">
+
     </head>
         <body>
             <div id="head">
@@ -34,19 +35,56 @@
                 <h1>BAGUS ADI PUTRA</h1>
             </div>
             <div id="visimisi">
-                <div id="visi">
-                    <ul>
-                        <li>
-                            <h1> VISI </h1>
-                            <h4> Saya dasdasdas</h4>
-                        </li>
-                        <li>
-                            <h1> VISI </h1>
-                            <h4> Saya dasdasdas</h4>
-                        </li>
-                    </ul>
-                    
+                <div id="bgvismis">
+                    <div id="visi">
+                        <h1>VISI</h1>
+                        <p>Menciptakan suasana sekolah yang cinta keberagaman, cinta lingkungan, menyenangkan, dan kondusif.</p>
+                    </div>
+                    <div id="misi">
+                        <h1>Misi</h1>
+                        <p>Misi:
+                                Menyelenggarakan kegiatan keagamaan di luar jam sekolah secara berkala.
+                                Mendukung serta memajukan semua kegiatan siswa yang bersifat positif berlandaskan iman dan taqwa.
+                                Menumbuhkan jiwa nasionalisme lewat kegiatan besar yang diselenggarakan.
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div id="hobi">
+                <img class="mySlide" src="materials/place9.jpg">
+                <img class="mySlide" src="materials/place13.jpg">
+                <img class="mySlide" src="materials/place8.jpg">
+            </div>
+
+            <div id="kontak">
+                <ul>
+                    <li>
+                        <img class="konicon" src="materials/gmailicon.png">
+                        
+                    </li>
+                    <li>
+                        <h4>bagus03031999@gmail.com</h4>
+                    </li>
+                </ul>
+                
+            </div>
+
+            <script>
+                var myIndex = 0;
+                carousel();
+                    
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlide");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+                    
         </body>
 </html>
